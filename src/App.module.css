@@ -1,0 +1,21 @@
+.container {
+    max-width: 1170px;
+    min-width: 320px;
+
+    margin: 0 auto;
+}
+
+.header {
+    height: 80px;
+    background-color: rgb(54, 106, 167);
+    padding: 20px;
+}
+
+.wrapper {
+    background-color: rgb(118, 176, 243);
+    min-height: 1000px;
+}
+
+h1 {
+    margin-top: 0;
+}

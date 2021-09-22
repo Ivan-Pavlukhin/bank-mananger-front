@@ -1,0 +1,28 @@
+.notification {
+    position: absolute;
+    top: 200px;
+    right: 350px;
+    width: 360px;
+    background-color: rgb(179, 14, 55);
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .enter {
+    transform: translateX(150%);
+  }
+  
+  .enterActive {
+    transform: translateX(0);
+    transition: transform 500ms linear;
+  }
+  
+  .exit {
+    transform: translateX(0);
+  }
+  
+  .exitActive {
+    transform: translateX(150%);
+    transition: transform 500ms linear;
+  }
